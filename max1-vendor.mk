@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/letv/max1/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/letv/max1/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/letv/max1/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/letv/max1/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/letv/max1/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/letv/max1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -40,15 +39,12 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/letv/max1/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/letv/max1/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/letv/max1/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/letv/max1/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/letv/max1/proprietary/bin/radish:system/bin/radish \
     vendor/letv/max1/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/letv/max1/proprietary/bin/rild:system/bin/rild \
     vendor/letv/max1/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/letv/max1/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/letv/max1/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/letv/max1/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/letv/max1/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/letv/max1/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/letv/max1/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -87,11 +83,9 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/letv/max1/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/letv/max1/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/letv/max1/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/letv/max1/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/letv/max1/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/letv/max1/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/letv/max1/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/letv/max1/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/letv/max1/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/letv/max1/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
@@ -99,8 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/letv/max1/proprietary/lib/hw/lights.msm8994.so:system/lib/hw/lights.msm8994.so \
     vendor/letv/max1/proprietary/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
-    vendor/letv/max1/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/letv/max1/proprietary/lib/libletvparam.so:system/lib/libletvparam.so \
     vendor/letv/max1/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/letv/max1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/letv/max1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -108,9 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/letv/max1/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/letv/max1/proprietary/lib64/hw/lights.msm8994.so:system/lib64/hw/lights.msm8994.so \
-    vendor/letv/max1/proprietary/lib64/hw/sensors.goldfish.so:system/lib64/hw/sensors.goldfish.so \
-    vendor/letv/max1/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
-    vendor/letv/max1/proprietary/lib64/libletvparam.so:system/lib64/libletvparam.so \
     vendor/letv/max1/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/letv/max1/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/letv/max1/proprietary/system/lib/hw/sensors.msm8994.so:system/system/lib/hw/sensors.msm8994.so \
@@ -120,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/letv/max1/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/letv/max1/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/letv/max1/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/letv/max1/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/letv/max1/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/letv/max1/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -158,7 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
     vendor/letv/max1/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/letv/max1/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/letv/max1/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
     vendor/letv/max1/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/letv/max1/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/letv/max1/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -170,12 +157,10 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/letv/max1/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/letv/max1/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/letv/max1/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
     vendor/letv/max1/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/letv/max1/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/letv/max1/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/letv/max1/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/letv/max1/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/letv/max1/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/letv/max1/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/letv/max1/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -248,7 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/letv/max1/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/letv/max1/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/letv/max1/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/letv/max1/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/letv/max1/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
@@ -283,7 +267,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_imx214_ofilm.so:system/vendor/lib/libmmcamera_imx214_ofilm.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_imx220.so:system/vendor/lib/libmmcamera_imx220.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_imx230_sunny.so:system/vendor/lib/libmmcamera_imx230_sunny.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_isp_abf44.so:system/vendor/lib/libmmcamera_isp_abf44.so \
@@ -329,19 +312,13 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_isp_wb46.so:system/vendor/lib/libmmcamera_isp_wb46.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov4688_sharp.so:system/vendor/lib/libmmcamera_ov4688_sharp.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:system/vendor/lib/libmmcamera_s5k3l1yx.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_s5k3m2_ofilm.so:system/vendor/lib/libmmcamera_s5k3m2_ofilm.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_s5k3m2_ofilm_eeprom.so:system/vendor/lib/libmmcamera_s5k3m2_ofilm_eeprom.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_s5k5e2ya.so:system/vendor/lib/libmmcamera_s5k5e2ya.so \
-    vendor/letv/max1/proprietary/vendor/lib/libmmcamera_samsung_s5k5e2ya_eeprom.so:system/vendor/lib/libmmcamera_samsung_s5k5e2ya_eeprom.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_eeprom.so \
     vendor/letv/max1/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
@@ -410,7 +387,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/letv/max1/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/letv/max1/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/letv/max1/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/letv/max1/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/letv/max1/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/letv/max1/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
@@ -427,17 +403,12 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
     vendor/letv/max1/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/letv/max1/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/letv/max1/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/letv/max1/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/letv/max1/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/letv/max1/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/letv/max1/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/letv/max1/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/letv/max1/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/letv/max1/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/letv/max1/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/letv/max1/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/letv/max1/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/letv/max1/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/letv/max1/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/letv/max1/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
@@ -491,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
     vendor/letv/max1/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/letv/max1/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/letv/max1/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/letv/max1/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/letv/max1/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
@@ -501,10 +471,8 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/letv/max1/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/letv/max1/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libSSEPKCS11.so:system/vendor/lib64/libSSEPKCS11.so \
     vendor/letv/max1/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/letv/max1/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/letv/max1/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/letv/max1/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/letv/max1/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -526,7 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/letv/max1/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/letv/max1/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libdpencalib.so:system/vendor/lib64/libdpencalib.so \
     vendor/letv/max1/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
     vendor/letv/max1/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
     vendor/letv/max1/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
@@ -534,8 +501,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/letv/max1/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/letv/max1/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libepdsp.so:system/vendor/lib64/libepdsp.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libepdsp_SDserver.so:system/vendor/lib64/libepdsp_SDserver.so \
     vendor/letv/max1/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/letv/max1/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/letv/max1/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
@@ -552,7 +517,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/letv/max1/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/letv/max1/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
     vendor/letv/max1/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/letv/max1/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/letv/max1/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
@@ -578,7 +542,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
     vendor/letv/max1/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/letv/max1/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libppl.so:system/vendor/lib64/libppl.so \
     vendor/letv/max1/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
     vendor/letv/max1/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/letv/max1/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
@@ -613,8 +576,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/letv/max1/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/letv/max1/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libusutils.so:system/vendor/lib64/libusutils.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/letv/max1/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/letv/max1/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/letv/max1/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
@@ -631,13 +592,11 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
     vendor/letv/max1/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
     vendor/letv/max1/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libwifiscanner.so:system/vendor/lib64/libwifiscanner.so \
     vendor/letv/max1/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/letv/max1/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/letv/max1/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/letv/max1/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/letv/max1/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/letv/max1/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/letv/max1/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 PRODUCT_PACKAGES += \
