@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/letv/max1/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/letv/max1/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/letv/max1/proprietary/bin/perfd:system/bin/perfd \
     vendor/letv/max1/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/letv/max1/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/letv/max1/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -48,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/bin/rild:system/bin/rild \
     vendor/letv/max1/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/letv/max1/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/letv/max1/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/letv/max1/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/letv/max1/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/letv/max1/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
@@ -115,9 +113,13 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/lib64/libletvparam.so:system/lib64/libletvparam.so \
     vendor/letv/max1/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/letv/max1/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+    vendor/letv/max1/proprietary/system/lib/hw/sensors.msm8994.so:system/system/lib/hw/sensors.msm8994.so \
+    vendor/letv/max1/proprietary/system/lib64/hw/sensors.msm8994.so:system/system/lib64/hw/sensors.msm8994.so \
     vendor/letv/max1/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/letv/max1/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/letv/max1/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/letv/max1/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/letv/max1/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/letv/max1/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/letv/max1/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/letv/max1/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/letv/max1/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -128,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/letv/max1/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:system/vendor/lib/hw/activity_recognition.msm8994.so \
     vendor/letv/max1/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/letv/max1/proprietary/vendor/lib/hw/sensors.msm8994.so:system/vendor/lib/hw/sensors.msm8994.so \
     vendor/letv/max1/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:system/vendor/lib/hw/sound_trigger.primary.msm8994.so \
     vendor/letv/max1/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/letv/max1/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
@@ -462,7 +463,6 @@ PRODUCT_COPY_FILES += \
     vendor/letv/max1/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/letv/max1/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:system/vendor/lib64/hw/activity_recognition.msm8994.so \
     vendor/letv/max1/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/letv/max1/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
     vendor/letv/max1/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/letv/max1/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/letv/max1/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
@@ -653,8 +653,8 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libtime_genoff \
     TimeService \
-    qcrilmsgtunnel \
     shutdownlistener \
     com.qualcomm.location \
+    qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
