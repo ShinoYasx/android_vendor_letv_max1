@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Features for product max1 -->
+<permissions>
+<feature name="common.platform_is_qcom"/>
+<feature name="share.max.share_show_max_logo"/>
+<feature name="setupwizard.display_mode_max1"/>
+<feature name="music.hifi"/>
+<feature name="mediaplayer.use_new_engine_for_8994"/>
+<feature name="systemui.controlcenter_volume_on_left_side"/>
+<feature name="telephony.remove_volte" />
+</permissions>
